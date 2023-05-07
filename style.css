@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav {
+    background-color: rgb(3,15,25);
+}
+
+header nav .navbar-brand{
+    color: white !important;
+}
+
+
+header nav .navbar-brand span{
+    color: #77bf9f;
+}
+
+
+
+.nav-item a{
+    color: white !important;
+    font-size: 18px;
+}
+
+.nav-item a:hover{
+    color: #77bf9f !important;
+    transition: 1s;
+}
+
+
+.navbar-toggler{
+    background-color:  white !important;
+}
+
+.navbar-toggler-icon{
+    color: #77bf9f !important;
+}
+
+nav form button{
+    background-color: #4db385 !important;
+    color: white !important;
+    border: none !important;
+    font-size: 18px !important;
+}
+
+nav form button:hover{
+    background-color: white !important;
+    color: #4db385 !important;
+    transition: 1s;
+}
+
+
+.navbar-nav{
+    margin-left: 120px !important;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav{
+        margin-left: 0px !important;
+    }
+
+    .heroSec h1{
+        font-size: 22px !important;
+    }
+ }
+
+
+ @media (max-width: 768px) {
+    .cryptoPrice .row{
+        justify-content: center !important;
+
+    }
+ }
+
+
+
+ .hero{
+    background-image: url("./Stock\ Chart.svg");
+    height: 600px;
+}
+
+ .heroSec h1{
+   
+    white-space: nowrap;
+    line-height: 76px;
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+ }
+
+ .heroSec h1 span{
+    margin-left: 5px;
+    color: rgba(210, 63, 49, 1);
+ }
+
+
+
+ .cryptoPrice{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+ }
+
+ /* .cryptoPriceCard {
+    width: 400px !important;
+ } */
+
+
+
+ .aboutUs h2{
+    color: rgb(3,15,25);
+    font-size: 32px;
+ }
+
+ .aboutUs p {
+     color: rgb(3,15,25);
+     font-size: 24px;
+ }
+
+ .aboutText p{
+    font-size: 1.15em;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.4;
+    cursor: pointer;
+ }
+
+ .aboutImg img{
+    height: 400px;
+ }
+
+ /* Birja */
+
+ .birja{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+ }
+
+ .birja .card{
+    background-color: #2A2B37;
+    padding-bottom: 2rem;
+    max-width: 550px !important;
+    margin-top: 30px !important;
+ }
+
+ .birja .card p {
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+ }
+
+ .birja .card a{
+    padding: 20px 20px;
+    background-color: #FED82B;
+    color: black;
+    text-decoration: none;
+    
+ }
+
+ .birja .card-text {
+    margin-top: 10px;
+ }
+
+ .birja .card a:hover{
+    background-color: black;
+    color: #FED82B;
+    transition: 1s;
+ }
+
+ .birjaCardButton{
+    float: right;
+ }
+
+ /* Contact */
+ .contact{
+    height: 350px;
+    background-image: url("./cool-background.png");
+ }
+
+ .socialIcon{
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .socialIcon a{
+    text-decoration: none;
+ }
+ .socialIcon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #77bf9f;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 50%;
+ }
+
+ .socialIcon i:hover{
+    background-color: rgba(210, 63, 49, 1);
+    color: white;
+    transition: 2s;
+ }
+
+ /* Blog */
+
+ .blog{
+    height: 350px;
+    background-color: #77bf9f;
+ }
