@@ -67,12 +67,19 @@ nav form button:hover{
  }
 
 
- @media (max-width: 768px) {
+ /* @media (max-width: 768px) {
     .cryptoPrice .row{
         justify-content: center !important;
 
     }
- }
+ } */
+
+ @media (max-width: 768px) {
+   .birja .row{
+       justify-content: center !important;
+
+   }
+}
 
 
 
@@ -102,9 +109,9 @@ nav form button:hover{
     padding-bottom: 3rem;
  }
 
- /* .cryptoPriceCard {
+ .cryptoPriceCard {
     width: 400px !important;
- } */
+ }
 
 
 
@@ -209,6 +216,33 @@ nav form button:hover{
  /* Blog */
 
  .blog{
-    height: 350px;
-    background-color: #77bf9f;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+   background-color: rgb(237, 237, 237);
+ }
+
+ .blog .card{
+   max-height: 400px;
+   background-color: #2A2B37;
+ }
+
+ .blog .card span{
+   color: white !important;
+ }
+ .blog .card p{
+   color: white !important;
+ }
+ .blog .card h5{
+   color: white !important;
+ }
+
+ .blog .card img{
+   height: 200px;
+ }
+
+ .blog .card a{
+   float: right;
+   background-color: #FED82B !important;
+   border: none !important;
+   color: black;
  }
