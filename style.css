@@ -246,3 +246,17 @@ nav form button:hover{
    border: none !important;
    color: black;
  }
+
+
+ /* Emekdasliq */
+
+
+ .emekdasliq{
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+ }
+
+ .supported img{
+   width: 200px;
+   height: 200px;
+ }
