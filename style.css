@@ -84,7 +84,7 @@ nav form button:hover{
 
 
  .hero{
-    background-image: url("./Stock\ Chart.svg");
+    background-image: url(./img/Stock\ Chart.svg);
     height: 600px;
 }
 
@@ -182,7 +182,7 @@ nav form button:hover{
  /* Contact */
  .contact{
     height: 350px;
-    background-image: url("./cool-background.png");
+    background-image: url("./img/cool-background.png");
  }
 
  .socialIcon{
